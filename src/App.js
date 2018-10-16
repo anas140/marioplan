@@ -4,9 +4,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h2>
+        <h1 className="center red-text">
           Mario Plan
-        </h2>
+        </h1>
       </div>
     );
   }
