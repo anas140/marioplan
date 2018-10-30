@@ -1,11 +1,12 @@
 import React from 'react';
 
-const ProjectDetails = () => {
+const ProjectDetails = (props) => {
+	const id = props.match.params.id;
 	return (
 		<div className="container section project-details">
 			<div className="card z-depth-0">
 				<div className="card-content">
-					<div className="card-title">Project Title</div>
+					<div className="card-title">Project Title - { id }</div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
